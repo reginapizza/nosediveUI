@@ -9,6 +9,7 @@ body {
 }
 
 a:active {
+  color: $black;
   font-weight: 600;
   font-style: none;
 }
@@ -50,13 +51,18 @@ label {
   justify-content: space-between;
 }
 
-.nav-item {
-  color: $dark-grey;
+.nav-item a {
+  color: $dark-grey !important;
   display: inline-block;
   font-size: .5rem;
   font-style: italic;
   text-decoration: none;
   text-transform: uppercase;
+  &:active {
+    color: $black;
+    font-style: none;
+    font-weight: 600;
+  }
 }
 
 .user-header {
@@ -119,7 +125,7 @@ label {
 .fa-search{
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  // transform: translateY(-50%);
   right: 25px;
   color: #fff;
   font-size: 25px;
