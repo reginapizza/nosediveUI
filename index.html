@@ -19,7 +19,7 @@
 <body>
   <div class="p-4 d-flex">
     <!-- Page Content  -->
-    <div id="content" class="col-8">
+    <div id="content" class="col-8 column-main">
       <div class="row">
         <div class="col-2 ml-0 mr-0 pl-0 pr-0">
           <img class="profile-pic" src="./public/me.png" alt="Avatar">
@@ -54,53 +54,76 @@
 
       <!--image post-->
       <div class="row">
-        <div class="col-2">
+        <div class="d-flex">
           <img src="./public/me.png" class="avatar" alt="avatar">
-        </div>
-        <div class=col-10>
-          <p class="name-tag pb-0 mb-0"> Regina Scott <span class="user-rating-small">4.2</span></p>
-          <p class="post pt-0 mt-0"> Brushed Suede w/ Cookie. Heaven!</p>
+          <div class="pl-1">
+            <p class="name-tag pb-0 mb-0"> Regina Scott <span class="user-rating-small">4.2</span></p>
+            <p class="post pt-0 mt-0"> Georgetown Cupcakes are the best. Heaven!</p>
+          </div>
         </div>
         <div class="row">
           <!--post image-->
-          <div class="col-8">
-            <img src="./public/seude-cookie.png" alt="cookie and coffee" width="100%">
+          <div class="d-flex">
+            <img src="./public/cupcake.jpg" alt="cookie and coffee" class="pic-upload">
+            <p class="medium-text"><span class="italic">People</span> <span class="bold">Regina Scott</span></p>
+            <!--post ratings-->
+            <div class="col-4">
+              <div class="row">
+                <p class="medium-text"> <span class="black-star-small">★</span><span class="bold">11 People</span> rated your picture </p>
+              </div>
+              <div class="row">
+                <div class="col-2 ml-0 mr-0">
+                  <img src="./public/savannah.jpg" class="small-avatar" alt="avatar">
+                </div>
+                <div class="col-8 ml-0 mr-0">
+                  <p class="top-commenter">Savannah Hubbard</p>
+                  <p class="top-commenter-rating">4.8</p>
+                </div>
+              </div>
+              <div class="row">
+                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+              </div>
+              <div class="row">
+            </div>
+            </div>
           </div>
-          <!--post ratings-->
-          <div class="col-4">
-            <div class="row">
-              <p class="medium-text"> <span class="black-star-small">★</span><span class="bold">11 People</span> rated your picture </p>
-            </div>
-            <div class="row">
-              <div class="col-2 ml-0 mr-0">
-                <img src="./public/me.png" class="small-avatar" alt="avatar">
-              </div>
-              <div class="col-8 ml-0 mr-0">
-                <p class="top-commenter">Justin Nierendorf</p>
-                <p class="top-commenter-rating">4.8</p>
-              </div>
-            </div>
-            <div class="row">
-              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-            </div>
-            <div class="row">
+        </div> <!--ends post 1-->
 
+        <div class="row pt-3">
+          <div class="d-flex">
+            <img src="./public/jack.jpg" class="avatar" alt="avatar">
+            <div class="pl-1">
+              <p class="name-tag pb-0 mb-1"> Jack Shaffery <span class="user-rating-small">4.1</span></p>
+              <p class="post pt-0 pb-0 mt-0 mb-2"> Just crushed @Eddie Esquivel in Super Smash Bros</p>
+              <p class="small-text pt-0 mt-0"> <span class="black-star-small">★</span><span class="bold pl-2">3 People</span> Eddie, Graham, and James have all rated 5 stars</p>
             </div>
           </div>
-        </div>
+        </div> <!--ends post 2-->
+
+        <div class="row pt-3">
+          <div class="d-flex">
+            <img src="./public/jess.jpg" class="avatar" alt="avatar">
+            <div class="pl-1">
+              <p class="name-tag pb-0 mb-1"> Jessica Auger <span class="user-rating-small">4.6</span></p>
+              <p class="post pt-0 pb-0 mt-0 mb-2"> If you think your cat is cuter than mine, you're wrong</p>
+              <p class="small-text pt-0 mt-0"> <span class="black-star-small">★</span><span class="bold pl-2">7 People</span> Anton, Megan, and Jill have all rated 5 stars</p>
+            </div>
+          </div>
+        </div> <!--ends post 3-->
+
       </div>
     </div>
     <!--ends page content-->
 
     <!--sidebar-->
-    <div class="col-4">
+    <!-- <div class="column-side d-flex flex-column">
       <div class="wrapper">
         <div class="search_box p-2">
           <input type="text" placeholder="">
           <i class="fas fa-search"></i>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </body>
 
