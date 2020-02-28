@@ -59,6 +59,12 @@ label {
   width: 2rem;
 }
 
+.active a {
+  font-style: normal !important;
+  font-weight: 800;
+  letter-spacing: 1px !important;
+}
+
 .black-star-small {
   content: '$black';
   font-style: normal;
@@ -105,15 +111,11 @@ label {
 .nav-item a {
   color: $dark-grey !important;
   display: inline-block;
-  font-size: .5rem;
+  font-size: .55rem;
   font-style: italic;
+  letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  &:active {
-    color: $black;
-    font-style: normal;
-    font-weight: 600;
-  }
 }
 
 .occupation-container {
@@ -203,12 +205,14 @@ label {
 
 .sidebar-header {
   font-size: .5rem;
+  letter-spacing: 2px;
 }
 
 .wrapper{
   // background: url("bg.png") no-repeat center ;
   width: 100%;
   background-size: cover;
+  letter-spacing: 0px;
 }
 
 .search-box{
