@@ -126,7 +126,8 @@ label {
   border: 1px solid $light-grey;
   border-radius: 2px;
   display: block;
-  max-width: 300px;
+  width: 400px;
+  height: 200px;
 }
 
 .post {
@@ -142,6 +143,13 @@ label {
   top: 50%;
   transform: translateY(-50%);
   width: 90%;
+}
+
+.ratings {
+  color: $dark-grey;
+  font-size: .4rem;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .small-avatar {
@@ -161,12 +169,12 @@ label {
 }
 
 .top-commenter {
-  font-size: .4rem;
+  font-size: .5rem;
   font-weight: 600;
 }
 
 .top-commenter-rating {
-  font-size: .4rem;
+  font-size: .5rem;
   font-style: italic;
   font-weight: 300;
 }
