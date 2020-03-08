@@ -71,6 +71,13 @@ label {
   padding: .1rem;
 }
 
+.black-star-medium {
+  content: '$black';
+  font-size: .7rem;
+  font-style: normal;
+  padding: .1rem;
+}
+
 .bold {
   font-weight: 600;
 }
@@ -142,8 +149,7 @@ label {
   border: 1px solid $light-grey;
   border-radius: 2px;
   display: block;
-  width: 340px;
-  height: 200px;
+  width: 100%;
 }
 
 .post {

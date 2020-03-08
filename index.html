@@ -18,6 +18,7 @@
 
 <body>
   <div class="p-4 d-flex">
+
     <!-- Page Content  -->
     <div id="content" class="col-9 column-main">
       <div class="row">
@@ -52,7 +53,7 @@
       </div>
       <!--ends nav row-->
 
-      <!--image post-->
+      <!--post 1 (main post)-->
       <div class="row">
         <div class="d-flex">
           <img src="./public/me.png" class="avatar" alt="avatar">
@@ -64,7 +65,7 @@
         <div class="row pl-3">
           <!--post image-->
           <div class="d-flex">
-            <div class="d-flex flex-column">
+            <div class="d-flex col-8 flex-column p-0">
               <img src="./public/cupcake.jpg" alt="cookie and coffee" class="pic-upload">
               <div class="medium-text"><span class="italic">People</span> <span class="bold">Regina Scott</span></div>
             </div>
@@ -109,30 +110,78 @@
           </div>
         </div> <!--ends post 1-->
 
+        <!--post 2-->
         <div class="row pt-3 pl-0">
-          <div class="d-flex">
+          <!--post 2 content-->
+          <div class="d-flex col-9 p-0">
             <img src="./public/jack.jpg" class="avatar" alt="avatar">
             <div class="pl-2">
               <p class="name-tag pb-0 mb-1"> Jack Shaffery <span class="user-rating-small">4.1</span></p>
-              <p class="post pt-0 pb-0 mt-0 mb-2"> Just crushed Eddie Esquivel in Super Smash Bros</p>
+              <p class="post pt-0 pb-0 mt-0 mb-2"> Just crushed Eddie in Super Smash Bros</p>
               <p class="small-text grey pt-0 mt-0 mb-0"> <span class="black-star-small">★</span><span class="bold pr-2">3 People</span> Eddie, Graham, and James have all rated 5 stars</p>
+            </div>
+          </div>
+          <!---post 2 comments-->
+          <div class="d-flex col-3 flex-column p-0">
+
+            <div class="row">
+              <div class=" d-flex flex-column m-0 p-0">
+                <p class="comments-tag mb-0 pr-1"> Comments (2)</p>
+              </div>
+              <div class="d-flex flex-column m-0 p-0">
+                <p class="commenter-name m-0 p-0">Eddie Esquivel</p>
+                <div class="d-flex flex-column">
+                  <p class="comment m-0 p-0 pl-3">You wish bro</p>
+                </div>
+                <p class="commenter-name m-0 p-0">James Desjardins</p>
+                <div class="d-flex flex-column">
+                  <p class="comment m-0 p-0 pl-3">I call next</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end">
+              <span class="black-star-medium">★</span><span class="black-star-medium">★</span><span class="black-star-medium">★</span><span class="black-star-medium">★</span><span class="black-star-medium">★</span>
             </div>
           </div>
         </div> <!--ends post 2-->
 
+        <!--post 3-->
         <div class="row pt-3 pl-0">
-          <div class="d-flex">
+          <!--post 3 content-->
+          <div class="d-flex col-9 p-0">
             <img src="./public/jess.jpg" class="avatar" alt="avatar">
             <div class="pl-2">
               <p class="name-tag pb-0 mb-1"> Jessica Auger <span class="user-rating-small">4.6</span></p>
-              <p class="post pt-0 pb-0 mt-0 mb-2"> My cat says I can't hang out today, sorry</p>
+              <p class="post pt-0 pb-0 mt-0 mb-2"> Finding my hairties everywhere #catmomlife</p>
               <p class="small-text grey pt-0 mt-0"> <span class="black-star-small">★</span><span class="bold pr-2">7 People</span> Anton, Megan, and Jill have all rated 5 stars</p>
             </div>
           </div>
+          <!---post 3 comments-->
+          <div class="d-flex col-3 flex-column p-0">
+
+            <div class="row">
+              <div class=" d-flex flex-column m-0 p-0">
+                <p class="comments-tag mb-0 pr-1"> Comments (2)</p>
+              </div>
+              <div class="d-flex flex-column m-0 p-0">
+                <p class="commenter-name m-0 p-0">Jillian Lund</p>
+                <div class="d-flex flex-column">
+                  <p class="comment m-0 p-0 pl-3">Gotta love her though!</p>
+                </div>
+                <p class="commenter-name m-0 p-0">Regina Scott</p>
+                <div class="d-flex flex-column">
+                  <p class="comment m-0 p-0 pl-3">My cat niece is purrfect</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end">
+              <span class="black-star-medium">★</span><span class="black-star-medium">★</span><span class="black-star-medium">★</span><span class="black-star-medium">★</span><span class="black-star-medium">★</span>
+            </div>
+          </div>
+
         </div> <!--ends post 3-->
 
       </div>
-    </div>
     <!--ends page content-->
 
     <!--sidebar-->
@@ -203,6 +252,7 @@
       <section class="italic grey sidebar-header uppercase mt-1">Privacy</section>
 
     </div>
+    <!--ends sidebar-->
   </div>
 </body>
 
